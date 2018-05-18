@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPlainTextEdit" name="plainTextEdit">
+   <widget class="QPlainTextEdit" name="blog">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -24,7 +24,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="fileNameInput">
     <property name="geometry">
      <rect>
       <x>400</x>
@@ -51,7 +51,7 @@
     <property name="geometry">
      <rect>
       <x>430</x>
-      <y>170</y>
+      <y>320</y>
       <width>131</width>
       <height>32</height>
      </rect>
@@ -64,7 +64,7 @@
     <property name="geometry">
      <rect>
       <x>430</x>
-      <y>210</y>
+      <y>350</y>
       <width>131</width>
       <height>32</height>
      </rect>
@@ -86,7 +86,7 @@
      <string>Template File Name</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="titleInput">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -109,7 +109,7 @@
      <string>Blog Title</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="dataInput">
     <property name="geometry">
      <rect>
       <x>400</x>
@@ -130,6 +130,52 @@
     </property>
     <property name="text">
      <string>Date</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="preview">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>180</y>
+      <width>211</width>
+      <height>131</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>160</y>
+      <width>60</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Preview</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="htmlTitle">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>130</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>110</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>HTML Title</string>
     </property>
    </widget>
   </widget>

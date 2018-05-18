@@ -18,6 +18,8 @@ public:
 private slots:
     void on_templateButton_clicked();
 
+    void on_convertButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
