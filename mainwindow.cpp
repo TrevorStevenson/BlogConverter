@@ -53,16 +53,16 @@ void MainWindow::on_convertButton_clicked()
                 if (line.contains("*1*")) {
                    line.replace("*1*", title);
                 }
-                else if (line.contains("*2*")) {
+                if (line.contains("*2*")) {
                     line.replace("*2*", preview);
                 }
-                else if (line.contains("*3*")) {
+                if (line.contains("*3*")) {
                     line.replace("*3*", date);
                 }
-                else if (line.contains("*4*")) {
+                if (line.contains("*4*")) {
                     line.replace("*4*", blogPost);
                 }
-                else if (line.contains("*5*")) {
+                if (line.contains("*5*")) {
                     line.replace("*5*", htmlTitle);
                 }
                 outStream << line << "\n";
